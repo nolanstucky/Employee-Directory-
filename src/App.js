@@ -1,24 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/navbar/index"
+import Search from "./components/search/index"
+import Employee from './components/employee';
+
+const testEmployee = {
+  
+    "id": 1,
+    "image": "https://randomuser.me/api/portraits/women/90.jpg",
+    "name": "Lisa Simpson",
+    "dob": '04/10/1998',
+    "email": "lissimp@email.com",
+    "phone": "555-321-2345"
+  
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <Search/>
+    <Employee details={testEmployee}/>
+    </>
   );
 }
 
