@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./style.css";
 
 function Search() {
+    const [setSearch, setSearchState] = useState({
+        
+    })
+
     return (
         <div className="search">
             <form className="form-inline">

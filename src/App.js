@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 import Navbar from "./components/navbar/index"
 import Search from "./components/search/index"
 import Employee from './components/employee';
-
+import Main from './components/main';
 const testEmployee = {
   
     "id": 1,
@@ -20,7 +20,7 @@ function App() {
     <>
     <Navbar/>
     <Search/>
-    <Employee details={testEmployee}/>
+    <Main/>
     </>
   );
 }
