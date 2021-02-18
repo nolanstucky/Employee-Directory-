@@ -1,3 +1,9 @@
 .employee {
-    background:red;
+    background: #E8A87C;
+    margin: 50px;
+    
+}
+
+#employee p {
+    color: #C38D9E;
 }

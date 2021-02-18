@@ -20,6 +20,12 @@ function App() {
     return  <Suspense><Main users={randomUsers}/></Suspense>
   } 
   
+  return (
+    <>
+      <Main users={randomUsers}/>
+    </>
+  );
+  
 }
 
 export default App;

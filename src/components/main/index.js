@@ -38,8 +38,8 @@ function Main({users}) {
     }
     return (
         <>
+        <Navbar employeeSearch={handleInputChange}/>
         <Search 
-        employeeSearch={handleInputChange}
         employeeSortByFirstName= {employeeSortByFirstName}
         employeeSortByDateofBirth= {employeeSortByDateofBirth}
         />
