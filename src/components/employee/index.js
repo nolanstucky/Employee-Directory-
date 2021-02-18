@@ -4,6 +4,7 @@ import EmployeeBorder from '../employeeborder/index';
 
 function Employee({ details }) {
     return (
+        //returns the employee card that is being fed the filtered array of props which is then used to populate the tags
         <div className="row employee flow-text">
             <EmployeeBorder/>
             <div id="employee">

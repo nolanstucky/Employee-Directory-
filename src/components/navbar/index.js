@@ -1,8 +1,8 @@
 import React from 'react';
 import "./style.css";
-import Search from '../search/index';
 function Navbar({employeeSearch}) {
     return (
+        //returns the navbar that is a input field taking in user input to handle the useState to filter through employees by names string
         <nav>
             <div className="nav-wrapper">
                 <form>

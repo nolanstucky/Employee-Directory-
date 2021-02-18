@@ -3,6 +3,7 @@ import "./style.css";
 
 function EmployeeBorder() {
     return (
+        //returns the border that has the labels for the employee information.
         <div className="row border flow-text">
             <div className="col s2">
             </div>
