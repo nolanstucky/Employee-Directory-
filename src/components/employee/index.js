@@ -20,7 +20,9 @@ function Employee({ details}) {
                 <div className="col s2">
                 <p>{details.cell}</p>
                 </div>
-                
+                <div className="col s2">
+                <p>{details.dob.age}</p>
+                </div>
         </div>
     )
 }

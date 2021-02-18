@@ -1,28 +1,25 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import './App.css';
 import Navbar from "./components/navbar/index"
 import Search from "./components/search/index"
 import Employee from './components/employee';
 import Main from './components/main';
-const testEmployee = {
-  
-    "id": 1,
-    "image": "https://randomuser.me/api/portraits/women/90.jpg",
-    "name": "Lisa Simpson",
-    "dob": '04/10/1998',
-    "email": "lissimp@email.com",
-    "phone": "555-321-2345"
-  
-}
+import {getRandomUsers} from "./utils/API"
 
 function App() {
-  return (
-    <>
-    <Navbar/>
-    <Search/>
-    <Main/>
-    </>
-  );
+  const [randomUsers, setRandomUsers] = useState([]);
+  const [isLoading, setLoading] = useState(true);
+  useEffect(() => {
+    getRandomUsers().then(({ data: { results } }) => {
+      setRandomUsers(results)
+      setLoading(false)
+    })
+  }, []);
+
+  if (!isLoading) {
+    return  <Suspense><Main users={randomUsers}/></Suspense>
+  } 
+  
 }
 
 export default App;

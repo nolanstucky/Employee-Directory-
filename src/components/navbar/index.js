@@ -1,12 +1,17 @@
 import React from 'react';
 import "./style.css";
-
-function Navbar() {
+import Search from '../search/index';
+function Navbar({employeeSearch}) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-
-            <div className="search-area col-4">
-                
+        <nav>
+            <div className="nav-wrapper">
+                <form>
+                    <div className="input-field">
+                        <input id="search" type="search" onChange={employeeSearch}/>
+                        <label className="label-icon" for="search"><i className="material-icons">search</i></label>
+                        <i className="material-icons">close</i>
+                    </div>
+                </form>
             </div>
         </nav>
     )
