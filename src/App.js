@@ -1,10 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import './App.css';
-import Navbar from "./components/navbar/index"
-import Search from "./components/search/index"
-import Employee from './components/employee';
 import Main from './components/main';
-import {getRandomUsers} from "./utils/API"
+import {getRandomUsers} from "./utils/API.js"
 
 function App() {
   const [randomUsers, setRandomUsers] = useState([]);
@@ -21,9 +18,7 @@ function App() {
   } 
   
   return (
-    <>
       <Main users={randomUsers}/>
-    </>
   );
   
 }
