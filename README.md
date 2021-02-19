@@ -10,7 +10,7 @@ This is a web aplication powered by react.js that can be used to show employee o
 * [Questions](#questions)
 
 ## Demonstration:
-[deployedlink]<https://github.com/nolanstucky/Employee-Directory-/blob/main/public/demonstration.gif/>
+[deployedlink](https://github.com/nolanstucky/Employee-Directory-/blob/main/public/demonstration.gif)
 
 ## Deployed-Link
 <https://ns-employee-directory-the-best.herokuapp.com/>
