@@ -14,7 +14,7 @@ This is a web aplication powered by react.js that can be used to show employee o
 <iframe src="https://drive.google.com/file/d/1oNoGGayIoP2uno--YuaaCAVRWSAzjyvc/preview" width="640" height="480"></iframe>
 
 ## Deployed-Link
-<https://ns-employee-directory-the-best.herokuapp.com/>
+[demonstration]<https://github.com/nolanstucky/Employee-Directory-/blob/main/public/demonstration.gif/>
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
