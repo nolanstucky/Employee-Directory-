@@ -11,7 +11,7 @@ This is a web aplication powered by react.js that can be used to show employee o
 * [Questions](#questions)
 
 ## Demonstration:
-<https://drive.google.com/file/d/1oNoGGayIoP2uno--YuaaCAVRWSAzjyvc/view/>
+<iframe src="https://drive.google.com/file/d/1oNoGGayIoP2uno--YuaaCAVRWSAzjyvc/preview" width="640" height="480"></iframe>
 
 ## Deployed-Link
 <https://ns-employee-directory-the-best.herokuapp.com/>
